@@ -1,0 +1,35 @@
+Body{
+    font-family: cursive;
+}
+table{
+    border-collapse: collapse;  /*définition de bordures simples*/
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+th,td {
+    border: 1px solid black;
+}
+th{
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #22aa23;
+    color: wheat;
+}
+td{
+    height: 30px;
+    padding-left: 25px;
+    text-align: center;
+}
+tr:hover{
+    background-color: yellow;
+}
+tr:nth-child(even){
+    background-color: bisque;
+}
+div{
+    width: 60%;
+    background-color: azure;
+}

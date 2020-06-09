@@ -1,0 +1,59 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Piedra&Metal+Maniadisplay=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+body{
+font-family: Arial;
+}
+
+header{
+    background-color: darkgray;
+    padding: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+    color:seashell;
+}
+section{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav{
+    float: left;
+    width: 30%;
+    /*height: 80%;*/
+    background: bisque;
+    padding: 25px;
+}
+nav ul{
+    padding: Opx;
+    list-style-type: none;
+}
+article{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    text-align: justify;
+    height: 100%;
+
+
+}
+article h1{
+    font-family: 'Piedra';
+    font-size: 22px;
+}
+footer{
+    background: darkgray;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
