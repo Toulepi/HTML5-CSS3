@@ -1,0 +1,36 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+.rouge {
+    background-color: red;
+    position: static;  /* La position de tout objet en position "static" ne peut-être modifié */ ne peut être
+}
+
+.verte {
+    background-color: green;
+    position: relative;
+    top: 1.2em;
+}
+
+.rose {
+    background-color: deeppink;
+    position: fixed;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+.bleu {
+    background-color: darkblue;
+}
+
+.teal {
+    background-color: teal;
+}
+header{
+    width: 100%;
+    background-color: gray;
+    height: 200px;
+}
